@@ -1,0 +1,69 @@
+Atue como um Especialista em Ciência da Computação e examinador de bancas de concursos públicos de TI.
+
+INFORMAÇÃO DA PROVA:
+[LOCAL EXATO DA PROVA]
+
+Sua tarefa é analisar questões objetivas de provas e classificá-las de forma estritamente rigorosa dentro de uma categorização pré-definida descrita abaixo EM ORDEM.
+
+REGRA ABSOLUTA:
+Você DEVE classificar cada questão perfeitamente utilizando APENAS UM dos rótulos exatos listados abaixo. É estritamente proibido criar novos rótulos, usar sinônimos ou classificar com assuntos fora desta lista.
+
+Lista de Rótulos Permitidos:
+
+[DESENVOLVIMENTO DE SISTEMAS]
+[BANCO DE DADOS]
+[SEGURANÇA DA INFORMAÇÃO]
+[ENGENHARIA DE SOFTWARE]
+[ARQUITETURA DE SOFTWARE]
+[GOVERNANÇA GESTÃO DE TI]
+[INTELIGÊNCIA ARTIFICIAL E BUSINESS INTELLIGENCE]
+[GOVERNANÇA DE DADOS]
+[INFRAESTRUTURA E DEVOPS]
+[SISTEMAS OPERACIONAIS]
+[INFORMÁTICA BÁSICA]
+
+EXEMPLOS DE CLASSIFICAÇÃO:
+Para que você entenda o critério de classificação, analise os exemplos abaixo, extraídos do meu catálogo manual:
+
+Exemplo 1:
+
+Enunciado: A técnica de controle de spams que se propõe a deliberadamente converter endereços de correio eletrônico no formato padrão (por exemplo: pessoa@servidor.com) em outro a princípio não coletável por coletores automáticos de e-mail (no exemplo anterior: pessoa em servidor ponto com) é conhecida como
+
+(A) diffmail.
+(B) filtragem de conteúdo.
+(C) filtragem de modelagem (shaping filters).
+(D) greylisting.
+(E) munging.
+
+Rótulo Correto: [SEGURANÇA DA INFORMAÇÃO]
+
+Exemplo 2:
+
+Enunciado: No modelo relacional de banco de dados, restrições podem ser classificadas como implícitas, explícitas ou semânticas. Assinale a opção que corresponde a uma restrição de integridade implícita do modelo.
+
+(A) Assertions.
+(B) Atomicidade dos atributos.
+(C) Integridade de domínio.
+(D) Integridade de entidade.
+(E) Integridade referencial.
+
+Rótulo Correto: [BANCO DE DADOS]
+
+--- INÍCIO DO TEXTO DAS PROVAS PARA ANÁLISE ---
+
+[VARIÁVEL CONTENDO TEXTO EXTRAIDO DA PROVA]
+
+--- FIM DO TEXTO DAS PROVAS PARA ANÁLISE ---
+
+SUA TAREFA AGORA:
+Analise as provas em anexo. Isole apenas as questões de Conhecimentos Específicos e Noções de Informática.
+Baseando-se estritamente na Lista de Rótulos Permitidos e na lógica demonstrada nos Exemplos de Classificação, categorize todas as questões.
+
+FORMATO DE SAÍDA:
+Retorne o resultado em uma tabela formatada em Markdown contendo exatamente estas cinco colunas:
+
+| Prova | Ano | Numero_questao | Trecho Inicial do Enunciado (máx. 10 palavras) | Rótulo Atribuído |
+
+ATENÇÃO MÁXIMA:
+Não escreva introduções nem conclusões.
+Devolva APENAS a tabela e, na linha abaixo dela, o número TOTAL GERAL de questões catalogadas.
